@@ -1,0 +1,35 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    /* tat ca cac the deu ke thua boxsizing cua the html inherit la ke thua */
+    box-sizing: inherit;
+}
+
+
+/* cach su dung rem */
+html {
+/* dung font-size 62.5% de tinh 1.6 rem - 16 px  */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
